@@ -9,11 +9,11 @@ import edu.princeton.cs.algs4.StdRandom;
  */
 public class N31 {
 
-    private static int N = 8;
-    private static double p = 0.2;
+    private static int N;
+    private static double p;
 
     private static final double pointRadius = 0.008;
-    private static final double circleRadius = 0.3;
+    private static final double circleRadius = 0.43;
     private static final double x = 0.5;
     private static final double y = 0.5;
 
@@ -38,7 +38,7 @@ public class N31 {
 
                     double bx = x+circleRadius*Math.cos(2*Math.PI*j/N);
                     double by = y+circleRadius*Math.sin(2*Math.PI*j/N);
-                    StdDraw.setPenRadius(0.005);
+                    StdDraw.setPenRadius(0.002);
                     StdDraw.setPenColor(StdDraw.GRAY);
                     StdDraw.line(ax, ay, bx, by);
                 }
@@ -47,6 +47,8 @@ public class N31 {
     }
 
     public static void main(String[] args) {
+        N = Integer.parseInt(args[0]);
+        p = Double.parseDouble(args[1]);
         drawPoint();
         drawLine();
     }
