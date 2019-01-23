@@ -2,7 +2,7 @@ package Chapter1.Section1;
 
 import edu.princeton.cs.algs4.StdOut;
 
-public class N33 {
+public class Matrix {
 
     /**
      * 向量点乘
