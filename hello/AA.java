@@ -1,19 +1,18 @@
-import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
 
-class fu {
-    int pb = 3;
-}
-class zi extends fu {
-//    public void x() {
-//        StdOut.println("hello");
-//    }
-}
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
 public class AA<T> {
+
+    public void add(T s) {
+        StdOut.println(s);
+    }
+
     public static void main(String[] args) {
-//        zi x = (zi)new fu();
-        Object obj = new Object();
-        String s = (String) obj;
-//        StdOut.println(x.pb);
+        AA a = new AA();
+        a.add("asdf");
+        a.add(123);
     }
 }
