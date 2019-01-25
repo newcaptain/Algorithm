@@ -4,9 +4,9 @@ import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Iterator;
 
-// TODO: 使用简单的方法重构代码
+// DO: 使用简单的方法重构代码
 
-public class ResizingArrayDeque<T> implements Iterable{
+public class ResizingArrayDeque<T> implements Iterable<T> {
     private T[] array;
     int tail;
 
@@ -67,7 +67,7 @@ public class ResizingArrayDeque<T> implements Iterable{
         for (int i=1; i<tail; i++) {
             array[i-1] = array[i];
         }
-        if (size() == array.length/4) {
+        if (size() > 0 && size() == array.length/4) {
             resize(array.length/2);
         }
         return rs;
@@ -75,14 +75,10 @@ public class ResizingArrayDeque<T> implements Iterable{
 
     public T popRight() {
         T rs = array[--tail];
-        if (size() == array.length/4) {
+        if (size() > 0 && size() == array.length/4) {
             resize(array.length/2);
         }
         return rs;
-    }
-
-    public T getindex(int i) {
-        return array[i];
     }
 
     public static void main(String[] args) {
@@ -92,6 +88,8 @@ public class ResizingArrayDeque<T> implements Iterable{
         tst.pushLeft("c");
         tst.pushLeft("d");
         tst.pushLeft("e");
+
+        StdOut.println(tst.array[0]);
 
 
         for (Object x : tst) {
@@ -117,13 +115,11 @@ public class ResizingArrayDeque<T> implements Iterable{
         tst.pushRight("123");
         tst.pushRight("456");
 
-        for (Object x : tst) {
+        for (String x : tst) {
             StdOut.print(x + " ");
         }
         StdOut.println();
-//        tst.popRight();
-//        tst.popLeft();
-        for (Object x : tst) {
+        for (String x : tst) {
             StdOut.print(x + " ");
         }
 
