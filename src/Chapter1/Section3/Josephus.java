@@ -39,6 +39,7 @@ public class Josephus {
             array[i-1] = array[i];
         }
         last--;
+        StdOut.println("\nlast: " + last + "\tlength: " + array.length);
         if (last > 0 && last == array.length/4) {
             resize(array.length/2);
         }
