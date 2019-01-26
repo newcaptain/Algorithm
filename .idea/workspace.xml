@@ -9,7 +9,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Chapter1/Section4/N15.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/local/jdk1.8/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="2420" column="19" lean-forward="true" selection-start-line="2420" selection-start-column="11" selection-end-line="2420" selection-end-column="19" />
+              <folding>
+                <element signature="e#94598#94599#0" expanded="true" />
+                <element signature="e#94636#94637#0" expanded="true" />
+                <element signature="e#117893#117894#0" expanded="true" />
+                <element signature="e#117955#117956#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,6 +84,8 @@
         <option value="$PROJECT_DIR$/src/Chapter1/Section3/RingBuffer.java" />
         <option value="$PROJECT_DIR$/src/Chapter1/Section3/MoveToFront.java" />
         <option value="$PROJECT_DIR$/src/Chapter1/Section3/Buff.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1/Section4/TwoSumFaster.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1/Section4/N15.java" />
       </list>
     </option>
   </component>
@@ -70,8 +100,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,12 +145,14 @@
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Chapter1" type="462c0819:PsiDirectoryNode" />
-              <item name="Section3" type="462c0819:PsiDirectoryNode" />
+              <item name="Section4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MoveToFront">
+  <component name="RunManager">
     <configuration name="GeneralizedQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chapter1.Section3.GeneralizedQueue" />
       <module name="Algorithm" />
@@ -183,8 +213,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter1.Section3.RandomQueue" />
+    <configuration name="N15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter1.Section4.N15" />
       <module name="Algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -206,19 +236,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.jdk 1.8" />
-      <item itemvalue="Application.RandomQueue" />
       <item itemvalue="Application.Josephus" />
       <item itemvalue="Application.GeneralizedQueue" />
       <item itemvalue="Application.RingBuffer" />
       <item itemvalue="Application.MoveToFront" />
+      <item itemvalue="Application.N15" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.N15" />
         <item itemvalue="Application.MoveToFront" />
         <item itemvalue="Application.RingBuffer" />
         <item itemvalue="Application.GeneralizedQueue" />
         <item itemvalue="Application.Josephus" />
-        <item itemvalue="Application.RandomQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -233,8 +263,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20886075" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20886075" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -281,7 +312,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter1/Section1/N27.java" />
     <entry file="file://$PROJECT_DIR$/Chapter1/Section1/N31.java" />
     <entry file="file://$PROJECT_DIR$/output/production/Algorithm/Chapter1/Section1/N27.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -502,16 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/local/jdk1.8/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="2993" selection-start-line="2993" selection-end-line="2993" />
-          <folding>
-            <element signature="e#117955#117956#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/local/jdk1.8/src.zip!/java/io/PrintWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -673,6 +693,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/jdk1.8/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="2420" column="19" lean-forward="true" selection-start-line="2420" selection-start-column="11" selection-end-line="2420" selection-end-column="19" />
+          <folding>
+            <element signature="e#94598#94599#0" expanded="true" />
+            <element signature="e#94636#94637#0" expanded="true" />
+            <element signature="e#117893#117894#0" expanded="true" />
+            <element signature="e#117955#117956#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1/Section4/N15.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
