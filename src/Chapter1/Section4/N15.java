@@ -5,6 +5,9 @@ import edu.princeton.cs.algs4.StdRandom;
 
 import java.util.Arrays;
 
+/**
+ * 快速2-sum，3-sum
+ */
 public class N15 {
 
     public static int TwoSumFaster(int[] array) {
