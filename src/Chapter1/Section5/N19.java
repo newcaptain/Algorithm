@@ -3,7 +3,6 @@ package Chapter1.Section5;
 
 import Chapter1.Section3.RandomBag;
 import edu.princeton.cs.algs4.StdDraw;
-import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Iterator;
 

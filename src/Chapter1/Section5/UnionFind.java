@@ -44,6 +44,4 @@ public class UnionFind {
             w[aq] += w[ap];
         }
     }
-
-
 }

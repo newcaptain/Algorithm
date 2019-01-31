@@ -9,16 +9,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Chapter1/Section5/ErdosRenyi.java">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter1/Section5/RandomGrid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
+            <state relative-caret-position="836">
+              <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="e#825#826#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter1/Section5/UnionFind.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="946">
+              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Chapter1/Section5/N19.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,14 +103,14 @@
         <option value="$PROJECT_DIR$/src/Chapter1/Section4/N44.java" />
         <option value="$PROJECT_DIR$/src/Chapter1/Section5/N13.java" />
         <option value="$PROJECT_DIR$/src/Chapter1/Section5/N12.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1/Section5/UnionFind.java" />
         <option value="$PROJECT_DIR$/src/Chapter1/Section5/RandomGrid.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1/Section5/N19.java" />
         <option value="$PROJECT_DIR$/src/Chapter1/Section5/ErdosRenyi.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1/Section5/UnionFind.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1/Section5/N19.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="53" />
     <option name="width" value="1390" />
@@ -102,7 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -155,6 +173,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ErdosRenyi">
+  <component name="RunManager" selected="Application.N19">
     <configuration name="ErdosRenyi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chapter1.Section5.ErdosRenyi" />
       <module name="Algorithm" />
@@ -246,11 +265,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ErdosRenyi" />
         <item itemvalue="Application.N19" />
+        <item itemvalue="Application.RandomGrid" />
+        <item itemvalue="Application.ErdosRenyi" />
         <item itemvalue="Application.N12" />
         <item itemvalue="Application.N13" />
-        <item itemvalue="Application.RandomGrid" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +293,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32900432" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.33982685" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.33982685" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -739,33 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1/Section5/N19.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1/Section5/RandomGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1/Section5/UnionFind.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter1/Section5/ErdosRenyi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
@@ -774,6 +766,33 @@
             <element signature="imports" expanded="true" />
             <element signature="e#799#800#0" expanded="true" />
             <element signature="e#825#826#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1/Section5/RandomGrid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1/Section5/UnionFind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1/Section5/N19.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
