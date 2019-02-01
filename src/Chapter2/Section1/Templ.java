@@ -1,10 +1,9 @@
 package Chapter2.Section1;
 
-import edu.princeton.cs.algs4.In;
-import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
-public class SelectSort {
+public class Templ {
+
     public static void sort(Comparable[] a) {
 
     }
@@ -33,13 +32,5 @@ public class SelectSort {
             }
         }
         return true;
-    }
-
-    public static void main(String[] args) {
-        String[] a = StdIn.readAllStrings();
-        show(a);
-        sort(a);
-        assert isSorted(a);
-        show(a);
     }
 }

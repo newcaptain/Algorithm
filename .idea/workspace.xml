@@ -10,49 +10,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter1/Section5/RandomGrid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter1/Section5/UnionFind.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="946">
-              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter1/Section5/N19.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Chapter2/Section1/SelectSort.java">
+        <entry file="file://$PROJECT_DIR$/src/Chapter2/Section1/N17.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#214#215#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="212">
+              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -74,8 +36,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Chapter1/Section1/N26.java" />
-        <option value="$PROJECT_DIR$/Chapter1/Section1/N27.java" />
         <option value="$PROJECT_DIR$/Chapter1/Section1/N28.java" />
         <option value="$PROJECT_DIR$/Chapter1/Section1/BinarySearch.java" />
         <option value="$PROJECT_DIR$/Chapter1/Section1/N30.java" />
@@ -121,7 +81,12 @@
         <option value="$PROJECT_DIR$/src/Chapter1/Section5/ErdosRenyi.java" />
         <option value="$PROJECT_DIR$/src/Chapter1/Section5/UnionFind.java" />
         <option value="$PROJECT_DIR$/src/Chapter1/Section5/N19.java" />
+        <option value="$PROJECT_DIR$/src/Chapter2/Section1/InsertSort.java" />
         <option value="$PROJECT_DIR$/src/Chapter2/Section1/SelectSort.java" />
+        <option value="$PROJECT_DIR$/src/Chapter2/Section1/Insertion.java" />
+        <option value="$PROJECT_DIR$/src/Chapter2/Section1/Templ.java" />
+        <option value="$PROJECT_DIR$/src/Chapter2/Section1/Selection.java" />
+        <option value="$PROJECT_DIR$/src/Chapter2/Section1/N17.java" />
       </list>
     </option>
   </component>
@@ -136,6 +101,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,14 +135,18 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Section1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,16 +161,19 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/output/production/Algorithm/Chapter1/Section1" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Chapter1.Section1" />
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Chapter2.Section1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Chapter1/Section1" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/Chapter1/Section1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Chapter1.Section1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/output/production/Algorithm/Chapter1/Section1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -214,16 +188,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SelectSort">
-    <configuration name="ErdosRenyi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter1.Section5.ErdosRenyi" />
+  <component name="RunManager" selected="Application.Selection">
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter2.Section1.InsertSort" />
       <module name="Algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter1.Section5.N12" />
+    <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter2.Section1.Insertion" />
       <module name="Algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -236,15 +210,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomGrid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter1.Section5.RandomGrid" />
+    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter2.Section1.SelectSort" />
       <module name="Algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter2.Section1.SelectSort" />
+    <configuration name="Selection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter2.Section1.Selection" />
       <module name="Algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -259,19 +233,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.jdk 1.8" />
-      <item itemvalue="Application.N12" />
-      <item itemvalue="Application.RandomGrid" />
       <item itemvalue="Application.N19" />
-      <item itemvalue="Application.ErdosRenyi" />
       <item itemvalue="Application.SelectSort" />
+      <item itemvalue="Application.InsertSort" />
+      <item itemvalue="Application.Insertion" />
+      <item itemvalue="Application.Selection" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Selection" />
+        <item itemvalue="Application.Insertion" />
+        <item itemvalue="Application.InsertSort" />
         <item itemvalue="Application.SelectSort" />
         <item itemvalue="Application.N19" />
-        <item itemvalue="Application.RandomGrid" />
-        <item itemvalue="Application.ErdosRenyi" />
-        <item itemvalue="Application.N12" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +262,7 @@
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20886075" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20886075" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -335,27 +309,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Chapter1/Section1/N27.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1/Section2/Rational.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="57" column="23" lean-forward="true" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
-          <folding>
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1107#1108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello/hello/aaa.java" />
     <entry file="file://$PROJECT_DIR$/hello/MyQue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -784,7 +737,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter1/Section5/N19.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="88">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -792,15 +745,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2/Section1/SelectSort.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter2/Section1/Selection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="360">
+          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter2/Section1/Templ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter2/Section1/Insertion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter2/Section1/N17.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
