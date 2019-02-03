@@ -6,7 +6,7 @@ import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 
 /**
- * 动画
+ * 排序动画
  */
 public class N17 extends Templ {
     public static void insertion(Comparable[] a) {

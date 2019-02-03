@@ -19,6 +19,7 @@ public class Insertion extends Templ{
         for (int i=0; i<N; i++) {
             a[i] = StdIn.readInt();
         }
+        assert isSorted(a): "未排序";
         show(a);
         sort(a);
         show(a);
